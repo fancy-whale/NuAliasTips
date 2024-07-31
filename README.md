@@ -12,5 +12,5 @@ To install NuAliasTips, you can clone this repository into your nushell scripts 
 
 ```bash
 git clone https://github.com/fancy-whale/nualiastips.git ($nu.default-config-dir | path join scripts/nualiastips)
-echo "source nualiastips/nualiastips.nu\n" | save --append $nu.config-path
+echo "\nsource nualiastips/nualiastips.nu" | save --append $nu.config-path
 ```
